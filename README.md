@@ -25,6 +25,10 @@ To build the box run:
 ## Changelog
 
 * v.0.2.0  
+	- add rm on build.sh scripts  
+	- update the base image (the packages installed are listed into pkg-installed.txt)
+	
+* v.0.2.0  
 	- add update.sh, cleanup.sh, build.sh scripts  
 	- update the base image (the packages installed are listed into pkg-installed.txt)
 
