@@ -8,8 +8,8 @@ Add puppet 3.8.2 and start puppet agent.
 ## Usage
 Clone repository, cd to it and run:  
 
-		vagrant up              # create vm
-		vagrant ssh		# log into vm
+		vagrant up    # create vm
+		vagrant ssh   # log into vm
 
 After login into vm run:
 
@@ -24,8 +24,9 @@ To build the box run:
 
 ## Changelog
 
-* v.0.2.0  
-	- add rm on build.sh scripts  
+* v.0.2.1  
+	- add rm old box in build.sh script  
+	- add insecure vagrant public key to vm  
 	- update the base image (the packages installed are listed into pkg-installed.txt)
 	
 * v.0.2.0  
