@@ -5,8 +5,8 @@ VPWD="vagrant"
 TODAY=`date`
 
 # Copy vagrant insecure key
-echo "==> Copy vagrant insecure key and set permissions"
-cp /${VPWD}/insecure_vagrant.pub /home/${SSH_USER}/.ssh/authorized_keys && chown ${SSH_USER}:${SSH_USER} /home/${SSH_USER}/.ssh/authorized_keys && chmod 0600 /home/${SSH_USER}/.ssh/authorized_keys
+#echo "==> Copy vagrant insecure key and set permissions"
+#cp /${VPWD}/insecure_vagrant.pub /home/${SSH_USER}/.ssh/authorized_keys && chown ${SSH_USER}:${SSH_USER} /home/${SSH_USER}/.ssh/authorized_keys && chmod 0600 /home/${SSH_USER}/.ssh/authorized_keys
 
 echo "==> Cleaning up tmp"
 rm -rf /tmp/*
