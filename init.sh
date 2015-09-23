@@ -1,10 +1,7 @@
 #!/bin/sh
 
-echo "Puppet agent stating..."
+echo "Puppet agent stating/stoping..."
 sudo sed -i 's/START=no/START=yes/' /etc/default/puppet
-sudo service puppet start
 
-
-
-
-
+echo "Install puppet lvm module..."
+sudo puppet module install puppetlabs-lvm 
